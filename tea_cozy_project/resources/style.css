@@ -1,0 +1,173 @@
+/* genereal */
+
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    margin: 0;
+    z-index: 10;
+    background-color: #000000;
+}
+
+.logo img{
+    height: 50px;
+    margin: 0 0 0 10px;
+}
+
+.navigation {
+    display: flex;
+    margin-right: 10px;
+}
+
+.navigation h4 {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    top: 61px;
+}
+
+/* Mission */
+
+.mission-banner {
+    margin: 0 auto;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.mission-text {
+    width: 100%;
+    background-color: #000000;
+}
+
+/* Tea of the Month */
+
+.selection-teas {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.selection-title {
+    margin-top: 40px;
+}
+
+.selection-photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selection-photos img {
+    height: 200px;
+    width: 300px;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.selection-photos h4 {
+    padding: 10px 0;
+    margin: 0;
+}
+
+/* Location */
+
+.location-banner {
+    height: 500px;
+    max-width: 1200px;
+    background-image: url(./images/img-locations-background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.location-banner h2 {
+    width: 100%;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
+
+.locations-cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.card {
+    width: 300px;
+    max-height: 250px;
+    align-items: center;
+    margin: 15px 20px;
+    background-color: #000000;
+    opacity: 1;
+}
+
+/* Contact */
+
+.contact {
+    max-width: 1000px;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact h2, .contact h5 {
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    top: 61px;
+    width: 100%;
+}
+
+footer h5 {
+    text-align: left;
+    padding-bottom: 20px;
+    opacity: 0.9;
+}
